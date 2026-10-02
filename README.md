@@ -10,6 +10,21 @@
 
 ### 🔬 Projects
 
+**Agentic AI & multi-agent systems**
+| Repo | What it shows |
+|---|---|
+| [agent-graph](https://github.com/AfnanAhmd004/agent-graph) | Stateful agent runtime: parallel fan-out, checkpoints with crash recovery, human-in-the-loop approvals, retries, tracing |
+| [agent-swarm](https://github.com/AfnanAhmd004/agent-swarm) | Multi-agent coordination (voting, routing, cascades, debate) benchmarked on cost, accuracy and Byzantine robustness |
+| [agent-evals](https://github.com/AfnanAhmd004/agent-evals) | Agent evaluation with pass@k / pass^k, trajectory checks and a CI release gate that blocks safety regressions |
+| [robot-ops-agent](https://github.com/AfnanAhmd004/robot-ops-agent) | Robot-fleet operations agent: CUSUM fault detection, work orders, and a safety layer that does not trust the model |
+| [deep-research-agent](https://github.com/AfnanAhmd004/deep-research-agent) | Deep research over your documents: hybrid retrieval, cited claims, claim verification and abstention |
+| [agent-roster](https://github.com/AfnanAhmd004/agent-roster) | 17 specialist agents (robotics, ML, quant, CTO) as Claude Code subagents, with a router and gated playbooks |
+| [n8n-ai-workflows](https://github.com/AfnanAhmd004/n8n-ai-workflows) | Production n8n workflows with LLM guardrails, unit-tested code nodes and end-to-end runs in real n8n |
+| [agentic-trading-lab](https://github.com/AfnanAhmd004/agentic-trading-lab) | Trading-firm agents: quant, LLM and news analysts, bull/bear debate, risk committee, lookahead-safe backtest |
+| [llm-agent-orchestrator](https://github.com/AfnanAhmd004/llm-agent-orchestrator) | Testable multi-agent orchestration: typed tools, JSON action protocol, planner/workers and reviewer patterns |
+| [rag-paper-assistant](https://github.com/AfnanAhmd004/rag-paper-assistant) | Retrieval-augmented QA over research papers with hybrid retrieval and citations |
+| [awesome-agentic-ai](https://github.com/AfnanAhmd004/awesome-agentic-ai) | Curated, link-checked map of agentic AI for robotics, industry and quant, with a failure-mode playbook |
+
 **LLMs, VLMs & alignment**
 | Repo | What it shows |
 |---|---|
@@ -18,9 +33,6 @@
 | [llm-inference-server](https://github.com/AfnanAhmd004/llm-inference-server) | KV cache, continuous batching and speculative decoding behind an HTTP API, packaged with Docker |
 | [preference-alignment](https://github.com/AfnanAhmd004/preference-alignment) | Reward modelling, DPO and RLHF compared end to end, including mode collapse and reward hacking |
 | [clip-ablation-study](https://github.com/AfnanAhmd004/clip-ablation-study) | Contrastive vision–language training with 8 controlled ablations and compositional generalisation tests |
-| [agentic-trading-lab](https://github.com/AfnanAhmd004/agentic-trading-lab) | Multi-agent trading system: quant and LLM analysts, portfolio manager, risk and execution agents, lookahead-safe backtest |
-| [llm-agent-orchestrator](https://github.com/AfnanAhmd004/llm-agent-orchestrator) | Testable multi-agent orchestration: typed tools, JSON action protocol, planner/workers and reviewer patterns |
-| [rag-paper-assistant](https://github.com/AfnanAhmd004/rag-paper-assistant) | Retrieval-augmented QA over research papers with hybrid retrieval and citations |
 
 **Robotics, perception & control**
 | Repo | What it shows |
@@ -54,12 +66,12 @@
 ---
 
 ### 🏗️ How I build
-- **Evidence over demos.** Every repo ships tests, a reproducible experiment and a README that reports failures alongside wins: forgetting, mode collapse, reward hacking, false loop closures, overfit backtests.
-- **Built to be deployed.** Latency and memory budgets, quantization, C++ where it matters, CI, Docker, and safety interlocks on anything that touches hardware.
+- **Evidence over demos.** Every repo ships tests, a reproducible experiment and a README that reports failures alongside wins: forgetting, mode collapse, reward hacking, false loop closures, overfit backtests, agents that look better but fail safety cases.
+- **Built to be deployed.** Latency and memory budgets, quantization, C++ where it matters, CI, Docker, and safety interlocks on anything that touches hardware. Agents get least-privilege tools, human approvals and audit logs.
 - **Research to product.** I turn papers into tested components a team can own, and choose the simplest method that beats an honest baseline.
 
 ### 🧰 Stack
-`Python` `C++` `PyTorch` `ONNX Runtime` `ROS 2` `OpenCV` `CMake` `MATLAB/Simulink` `Docker` `Linux` `GitHub Actions` · LLMs & agentic systems · VLMs · RLHF/DPO · Transformers · Reinforcement learning · SLAM & state estimation · Event-based vision · MPC · Bayesian inference · Market microstructure
+`Python` `C++` `PyTorch` `ONNX Runtime` `ROS 2` `OpenCV` `CMake` `MATLAB/Simulink` `Docker` `Linux` `GitHub Actions` · LLMs & agentic systems · Multi-agent orchestration · MCP · n8n · Agent evaluation · VLMs · RLHF/DPO · Transformers · Reinforcement learning · SLAM & state estimation · Event-based vision · MPC · Bayesian inference · Market microstructure
 
 ### 📫 Connect
 [LinkedIn](https://www.linkedin.com/in/afnan-ahmed-adil-o28a781b3) · afnanahmed2773@gmail.com
