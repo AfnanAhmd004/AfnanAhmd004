@@ -2,33 +2,48 @@
 
 **AI & Robotics Researcher.** I build AI that works outside the lab, from autonomous robots and space systems to multi-agent systems for quantitative trading.
 
-- 🧭 I lead AI strategy, the product roadmap and the engineering team for AI-native robotic platforms (LLMs, agentic AI, VLMs, multi-agent orchestration).ss
-- 📈 **AI for quantitative trading.** Intraday ML/DL trading systems; alpha research with transformers, time-series models and reinforcement learning.
+- 🧭 I lead AI strategy, the product roadmap and the engineering team for AI-native robotic platforms (LLMs, agentic AI, VLMs, multi-agent orchestration).
+- 🤖 **Robotics & perception.** SLAM, state estimation, LiDAR and event-camera perception, multi-robot coordination, MPC, and industrial machine vision.
+- 📈 **AI for quantitative trading.** Intraday ML/DL trading systems; alpha research with transformers, Bayesian models and reinforcement learning; market microstructure and execution.
 
 ---
 
 ### 🔬 Projects
 
-**Agentic AI & LLMs**
+**LLMs, VLMs & alignment**
 | Repo | What it shows |
 |---|---|
+| [lora-finetuning-lab](https://github.com/AfnanAhmd004/lora-finetuning-lab) | LoRA and QLoRA (NF4) from scratch against full fine-tuning; measures catastrophic forgetting and fixes it with replay |
+| [llm-compression](https://github.com/AfnanAhmd004/llm-compression) | int8/int4 quantization, knowledge distillation and ONNX Runtime export, with size/speed/quality trade-offs |
+| [llm-inference-server](https://github.com/AfnanAhmd004/llm-inference-server) | KV cache, continuous batching and speculative decoding behind an HTTP API, packaged with Docker |
+| [preference-alignment](https://github.com/AfnanAhmd004/preference-alignment) | Reward modelling, DPO and RLHF compared end to end, including mode collapse and reward hacking |
+| [clip-ablation-study](https://github.com/AfnanAhmd004/clip-ablation-study) | Contrastive vision–language training with 8 controlled ablations and compositional generalisation tests |
 | [agentic-trading-lab](https://github.com/AfnanAhmd004/agentic-trading-lab) | Multi-agent trading system: quant and LLM analysts, portfolio manager, risk and execution agents, lookahead-safe backtest |
 | [llm-agent-orchestrator](https://github.com/AfnanAhmd004/llm-agent-orchestrator) | Testable multi-agent orchestration: typed tools, JSON action protocol, planner/workers and reviewer patterns |
 | [rag-paper-assistant](https://github.com/AfnanAhmd004/rag-paper-assistant) | Retrieval-augmented QA over research papers with hybrid retrieval and citations |
 
-**Robotics, Perception & Control**
+**Robotics, perception & control**
 | Repo | What it shows |
 |---|---|
-| [multi-robot-coordination](https://github.com/AfnanAhmd004/multi-robot-coordination) | Leader–follower teams, RRT\* planning and dynamic re-planning (from my *Frontiers in Robotics and AI* paper) |
+| [pose-graph-slam](https://github.com/AfnanAhmd004/pose-graph-slam) | SE(2) pose-graph SLAM with sparse Levenberg–Marquardt and robust kernels that survive false loop closures |
+| [lidar-perception-cpp](https://github.com/AfnanAhmd004/lidar-perception-cpp) | Real-time C++17 LiDAR pipeline (ground segmentation, clustering, traversability) with CMake, CI and Python bindings |
+| [multi-robot-coordination](https://github.com/AfnanAhmd004/multi-robot-coordination) | Leader–follower teams, RRT\* planning and dynamic re-planning |
 | [event-vision-toolkit](https://github.com/AfnanAhmd004/event-vision-toolkit) | Event-camera simulation, voxel grids and time surfaces, denoising, and tracking of space objects |
 | [ekf-sensor-fusion](https://github.com/AfnanAhmd004/ekf-sensor-fusion) | GNSS/INS extended Kalman filter with bias estimation, outage handling and NIS consistency |
 | [robot-control-mpc](https://github.com/AfnanAhmd004/robot-control-mpc) | LQR cart-pole balancing and constrained LTV-MPC trajectory tracking |
 | [multi-object-tracker](https://github.com/AfnanAhmd004/multi-object-tracker) | SORT-style tracking: Kalman filter, Hungarian matching, CLEAR-MOT metrics |
-| [predictive-maintenance-ts](https://github.com/AfnanAhmd004/predictive-maintenance-ts) | Industrial anomaly detection: PCA residual, isolation forest, autoencoder, lead-time metrics |
 
-**Quantitative Research & ML for Finance**
+**Industrial automation**
 | Repo | What it shows |
 |---|---|
+| [vision-pokayoke](https://github.com/AfnanAhmd004/vision-pokayoke) | Machine-vision error-proofing station: defect checks, line-stop interlock and part-level traceability |
+| [predictive-maintenance-ts](https://github.com/AfnanAhmd004/predictive-maintenance-ts) | Industrial anomaly detection: PCA residual, isolation forest, autoencoder, lead-time metrics |
+
+**Quantitative research & ML for finance**
+| Repo | What it shows |
+|---|---|
+| [lob-microstructure](https://github.com/AfnanAhmd004/lob-microstructure) | Limit-order-book simulator, order-flow imbalance and microprice, and TWAP/VWAP/Almgren–Chriss execution measured by implementation shortfall |
+| [bayesian-signals](https://github.com/AfnanAhmd004/bayesian-signals) | Online Bayesian regression and GP-ARD for weak signals, with probabilistic and deflated Sharpe ratios against selection bias |
 | [tsformer-forecast](https://github.com/AfnanAhmd004/tsformer-forecast) | Transformer forecasting with walk-forward evaluation against honest baselines |
 | [alpha-factor-lab](https://github.com/AfnanAhmd004/alpha-factor-lab) | Cross-sectional factor research: IC, decay, quantile portfolios, IC-weighted combination |
 | [quant-backtester](https://github.com/AfnanAhmd004/quant-backtester) | Event-driven backtester with next-bar fills, stops, costs and risk metrics |
@@ -38,8 +53,13 @@
 
 ---
 
+### 🏗️ How I build
+- **Evidence over demos.** Every repo ships tests, a reproducible experiment and a README that reports failures alongside wins: forgetting, mode collapse, reward hacking, false loop closures, overfit backtests.
+- **Built to be deployed.** Latency and memory budgets, quantization, C++ where it matters, CI, Docker, and safety interlocks on anything that touches hardware.
+- **Research to product.** I turn papers into tested components a team can own, and choose the simplest method that beats an honest baseline.
+
 ### 🧰 Stack
-`Python` `C++` `PyTorch` `ROS 2` `MATLAB/Simulink` `Docker` `Linux` · LLMs & agentic systems · VLMs · Transformers · Reinforcement learning · Event-based vision · State estimation · MPC
+`Python` `C++` `PyTorch` `ONNX Runtime` `ROS 2` `OpenCV` `CMake` `MATLAB/Simulink` `Docker` `Linux` `GitHub Actions` · LLMs & agentic systems · VLMs · RLHF/DPO · Transformers · Reinforcement learning · SLAM & state estimation · Event-based vision · MPC · Bayesian inference · Market microstructure
 
 ### 📫 Connect
 [LinkedIn](https://www.linkedin.com/in/afnan-ahmed-adil-o28a781b3) · afnanahmed2773@gmail.com
