@@ -38,15 +38,6 @@
 
 ---
 
-### 📄 Selected publications
-- **A Multi-Robot Collaborative Manipulation Framework for Dynamic and Obstacle-Dense Environments: Integration of Deep Learning for Real-Time Task Execution** · *Frontiers in Robotics and AI*, 2025 · [doi:10.3389/frobt.2025.1585544](https://doi.org/10.3389/frobt.2025.1585544)
-- **Performance Evaluation of CMOS and Event-Based Sensors for Ground-Based Space Situational Awareness** · *International Astronautical Congress (IAC)*, 2025
-- **Fast Licence Plate Recognition of Moving Vehicles Using Deep Learning** · *IEEE* · [IEEE Xplore](https://ieeexplore.ieee.org/document/10829288)
-- 🧾 **Patent (filed):** Efficient Mobility System for Adaptive Wheeled-Legged Planetary Rover
-
-### 🗂️ Open datasets
-- Neuromorphic vision datasets: [doi:10.57760/sciencedb.28448](https://doi.org/10.57760/sciencedb.28448) · [doi:10.57760/sciencedb.29165](https://doi.org/10.57760/sciencedb.29165)
-
 ### 🧰 Stack
 `Python` `C++` `PyTorch` `ROS 2` `MATLAB/Simulink` `Docker` `Linux` · LLMs & agentic systems · VLMs · Transformers · Reinforcement learning · Event-based vision · State estimation · MPC
 
