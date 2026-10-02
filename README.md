@@ -37,6 +37,9 @@
 **Robotics, perception & control**
 | Repo | What it shows |
 |---|---|
+| [vlm-robot-planner](https://github.com/AfnanAhmd004/vlm-robot-planner) | Language-instructed manipulation: camera perception, LLM/VLM planning gated by a symbolic checker, closed-loop replanning (0 unsafe actions even with a 60%-error planner) |
+| [amr-fleet-manager](https://github.com/AfnanAhmd004/amr-fleet-manager) | Warehouse AMR fleet: Hungarian dispatch, space-time A* multi-robot path finding, charging policy, fleet-sizing study, HTTP API |
+| [sim2real-randomization](https://github.com/AfnanAhmd004/sim2real-randomization) | Sim-to-real for a cart-pole and a VTOL quadrotor: domain randomisation, automatic DR and system identification on 1,000 unseen plants |
 | [pose-graph-slam](https://github.com/AfnanAhmd004/pose-graph-slam) | SE(2) pose-graph SLAM with sparse Levenberg–Marquardt and robust kernels that survive false loop closures |
 | [lidar-perception-cpp](https://github.com/AfnanAhmd004/lidar-perception-cpp) | Real-time C++17 LiDAR pipeline (ground segmentation, clustering, traversability) with CMake, CI and Python bindings |
 | [multi-robot-coordination](https://github.com/AfnanAhmd004/multi-robot-coordination) | Leader–follower teams, RRT\* planning and dynamic re-planning |
