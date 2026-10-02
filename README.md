@@ -1,8 +1,8 @@
 # Afnan Ahmed Adil
 
-**CTO · AI & Robotics Researcher.** I build AI that works outside the lab, from autonomous robots and space systems to multi-agent systems for quantitative trading.
+AI & Robotics Researcher.** I build AI that works outside the lab, from autonomous robots and space systems to multi-agent systems for quantitative trading.
 
-- 🧭 **CTO @ Ibtikar Robotics.** I lead AI strategy, the product roadmap and the engineering team for AI-native robotic platforms (LLMs, agentic AI, VLMs, multi-agent orchestration).
+- 🧭 I lead AI strategy, the product roadmap and the engineering team for AI-native robotic platforms (LLMs, agentic AI, VLMs, multi-agent orchestration).
 - 🛰️ **Space robotics & neuromorphic vision.** Principal contributor to a next-generation lunar rover with the Technology Innovation Institute (TII); led R&D on event-camera Space Situational Awareness at Khalifa University's ARIC.
 - 🤖 **Visiting Researcher, AI & Robotics @ RIT Dubai.** Multi-robot coordination, deep-learning perception, agentic AI.
 - 📈 **AI for quantitative trading.** Intraday ML/DL trading systems; alpha research with transformers, time-series models and reinforcement learning.
